@@ -234,6 +234,7 @@ class SchemaHelper(object):
                 tsid = self.compress_state(id, r, fields)
                 edge[r] = tsid
             fsm[id] = edge
+        fsm[SchemaHelper.ROOT_NODE] = fields[0]
         return fsm
 
 class RecordDissector(object):
@@ -294,12 +295,17 @@ class RecordDissector(object):
         else:
             self._emitter.emit(fid, rep_level, def_level, value)
 
+#column_reader is expect to expose
+#  repetition_level
+#  definition_level
+#  consume
 class RecordAssembler(object):
 
-    def __init__(self, schema_elements):
+    def __init__(self, schema_elements, column_readers):
         self.schema_elements = schema_elements
         self._schema_helper = SchemaHelper(schema_elements)
         self._schema_helper.build_full_fsm()
+        self.column_readers = column_readers
     
     def select_fields(self, field_paths = None):
         fields = []
@@ -313,7 +319,22 @@ class RecordAssembler(object):
                     fields.append(id)
         self._fsm = self._schema_helper.compress_fsm(fields)
         return self._fsm
-    
+
+    def assemble(self):
+        fid = self._fsm[SchemaHelper.ROOT_NODE]
+        rd = self.column_readers[fid]
+        while fid != SchemaHelper.ROOT_NODE:
+            d = rd.definition_level
+            rd.consume()
+
+            #if d == None:
+            r = rd.repetition_level
+            nfid = self._fsm[fid][r]
+            print r,d,'{0} -> {1}'.format(fid, nfid)
+            fid = nfid
+            if fid != -1:
+                rd = self.column_readers[fid]
+
     def dump(self):
         print self._schema_helper._path_to_id
         for id, element in enumerate(self.schema_elements):
@@ -321,4 +342,3 @@ class RecordAssembler(object):
         for id, edge in enumerate(self._schema_helper._edges):
             print id, edge
 
-    
