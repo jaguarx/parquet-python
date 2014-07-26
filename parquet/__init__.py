@@ -255,45 +255,51 @@ def read_data_page(fo, schema_helper, page_header, column_metadata,
     io_obj = cStringIO.StringIO(raw_bytes)
     vals = []
 
+    logger.debug("  path_in_schema: %s",
+                 '.'.join(column_metadata.path_in_schema))
     logger.debug("  definition_level_encoding: %s",
                  _get_name(Encoding, daph.definition_level_encoding))
     logger.debug("  repetition_level_encoding: %s",
                  _get_name(Encoding, daph.repetition_level_encoding))
     logger.debug("  encoding: %s", _get_name(Encoding, daph.encoding))
 
-    # definition levels are skipped if data is required.
-    if not schema_helper.is_required(column_metadata.path_in_schema[-1]):
-        max_definition_level = schema_helper.max_definition_level(
+    max_repetition_level = schema_helper.max_repetition_level(
             column_metadata.path_in_schema)
-        bit_width = encoding.width_from_max_int(max_definition_level)
-        logger.debug("  max def level: %s   bit_width: %s",
-                     max_definition_level, bit_width)
+    if max_repetition_level > 0:
+        bit_width = encoding.width_from_max_int(max_repetition_level)
         if bit_width == 0:
-            definition_levels = [0] * daph.num_values
+            repetition_levels = [0] * daph.num_values
         else:
-            definition_levels = _read_data(io_obj,
+            repetition_levels = _read_data(io_obj,
+                                       daph.repetition_level_encoding,
+                                       daph.num_values,
+                                       bit_width)
+        logger.debug("  Repetition levels: %s", repetition_levels)
+
+    definition_levels = []
+    max_definition_level = schema_helper.max_definition_level(
+            column_metadata.path_in_schema)
+    if max_definition_level > 0:
+        bit_width = encoding.width_from_max_int(max_definition_level)
+        logger.debug("  max def level: %s   bit_width: %s  values: %s",
+                     max_definition_level, bit_width, daph.num_values)
+        definition_levels = _read_data(io_obj,
                                            daph.definition_level_encoding,
                                            daph.num_values,
                                            bit_width)
-
-        logger.debug("  Definition levels: %s", len(definition_levels))
-
-    # repetition levels are skipped if data is at the first level.
-    if len(column_metadata.path_in_schema) > 1:
-        max_repetition_level = schema_helper.max_repetition_level(
-            column_metadata.path_in_schema)
-        bit_width = encoding.width_from_max_int(max_repetition_level)
-        repetition_levels = _read_data(io_obj,
-                                       daph.repetition_level_encoding,
-                                       daph.num_values)
+        logger.debug("  Definition levels: %s", definition_levels)
 
     # TODO Actually use the definition and repetition levels.
 
     if daph.encoding == Encoding.PLAIN:
         for i in range(daph.num_values):
-            vals.append(
+            if len(definition_levels)>0:
+                dl = definition_levels[i]
+                if dl < max_definition_level:
+                    continue
+	        vals.append(
                 encoding.read_plain(io_obj, column_metadata.type, None))
-        logger.debug("  Values: %s", len(vals))
+        logger.debug("  Values: %s", vals)
     elif daph.encoding == Encoding.PLAIN_DICTIONARY:
         # bit_width is stored as single byte.
         bit_width = struct.unpack("<B", io_obj.read(1))[0]

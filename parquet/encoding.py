@@ -209,9 +209,12 @@ def read_rle_bit_packed_hybrid(fo, width, length=None):
         if raw_bytes == '':
             return None
         io_obj = cStringIO.StringIO(raw_bytes)
+        
+    logger.debug("rle/bp length: %s",length)
     res = []
     while io_obj.tell() < length:
         header = read_unsigned_var_int(io_obj)
+        logger.debug("rle/bp header:%x",header)
         if header & 1 == 0:
             res += read_rle(io_obj, header, width)
         else:

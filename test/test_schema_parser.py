@@ -34,36 +34,36 @@ d2 = {
 }
 
 field_values = {
-  	0: [
+  	'DocId': [
 		[0,0,10],
 		[0,0,20]
   	],
-  	2: [
+  	'Links.Backward': [
 		[0,1,None],
 		[0,2,10],
 		[1,2,30]
   	],
-  	3: [
+  	'Links.Forward': [
 		[0,2,20],
 		[1,2,40],
 		[1,2,60],
 		[0,2,80]
 	],
-	6: [
+	'Name.Language.Code': [
 		[0,2,"en-us"],
 		[2,2,"en"],
 		[1,1,None],
 		[1,2,"en-gb"],
 		[0,1,None]
 	],
-	7: [
+	'Name.Language.Country': [
 		[0,3,"us"],
 		[2,2,None],
 		[1,1,None],
 		[1,3,"gb"],
 		[0,1,None],
 	],
-	8: [
+	'Name.Url': [
 		[0,2,"http://A"],
 		[1,2,"http://B"],
 		[1,1,None],
@@ -76,12 +76,15 @@ schema_text = """
   required int64 DocId;
   optional group Links {
     repeated int64 Backward;
-    repeated int64 Forward; }
+    repeated int64 Forward;
+  }
   repeated group Name {
     repeated group Language {
       required string Code;
-      optional string Country; }
-    optional string Url; }}
+      optional string Country;
+    }
+    optional string Url; 
+  }
 }
 """
 
@@ -90,7 +93,8 @@ class TestSchemaParser(unittest.TestCase):
     def test_parser(self):
         p = SchemaParser()
         s = p.parse(schema_text)
-        self.assertTrue(len(s) == 9)
+        self.assertTrue(len(s) == 10)
+        print "test_parser done"
 
 
 class FieldEmitter:
@@ -100,7 +104,7 @@ class FieldEmitter:
 		self.values = []
 
 	def emit(self, fid, rep_lvl, def_lvl, value):
-		print "[{0},{1},{2},{3}]".format(fid,rep_lvl,def_lvl,value)
+		#print "[{0},{1},{2},{3}]".format(fid,rep_lvl,def_lvl,value)
 		self.values.append([fid, rep_lvl, def_lvl, value])
 
 class TestRecordDissector(unittest.TestCase):
@@ -113,6 +117,7 @@ class TestRecordDissector(unittest.TestCase):
         rd.dissect(d1)
         rd.dissect(d2)
         self.assertTrue(23 == len(emitter.values))
+        print "test_dissect done"
 
 class ListReader:
 	def __init__(self, id, values):
@@ -137,7 +142,7 @@ class ListReader:
 
 class TestRecordAssemble(unittest.TestCase):
 
-    def test_partails_fsm(self):
+    def test_partials_fsm(self):
         p = SchemaParser()
         s = p.parse(schema_text)
         ra = RecordAssembler(s, {})
@@ -147,6 +152,7 @@ class TestRecordAssemble(unittest.TestCase):
         	if s != SchemaHelper.ROOT_NODE:
 	        	count += len(n.keys())
         self.assertTrue( count == 4);
+        print "test_partial_fsm done"
 
     def test_full_fsm(self):
         p = SchemaParser()
@@ -158,26 +164,28 @@ class TestRecordAssemble(unittest.TestCase):
         	if s != SchemaHelper.ROOT_NODE:
 	        	count += len(n.keys())
         self.assertTrue( count == 13)
+        print "test_full_fsm done"
         
     def test_partial_assemble(self):
-		column_readers = dict([(id,ListReader(id,vl)) for id,vl in field_values.items()])
+        column_readers = dict([(id,ListReader(id,vl)) for id,vl in field_values.items()])
 
-		p = SchemaParser()
-		s = p.parse(schema_text)
-		ra = RecordAssembler(s, column_readers)
-		fsm = ra.select_fields(('DocId', 'Name.Language.Country'))
-		ra.assemble()
-		ra.assemble()
+        p = SchemaParser()
+        s = p.parse(schema_text)
+        ra = RecordAssembler(s, column_readers)
+        fsm = ra.select_fields(('DocId', 'Name.Language.Country'))
+        ra.assemble()
+        ra.assemble()
+        print "test_partial_assemble done"
 
     def test_full_assemble(self):
-		column_readers = dict([(id,ListReader(id,vl)) for id,vl in field_values.items()])
-
-		p = SchemaParser()
-		s = p.parse(schema_text)
-		ra = RecordAssembler(s, column_readers)
-		fsm = ra.select_fields()
-		ra.assemble()
-		ra.assemble()
+        column_readers = dict([(id,ListReader(id,vl)) for id,vl in field_values.items()])
+        p = SchemaParser()
+        s = p.parse(schema_text)
+        ra = RecordAssembler(s, column_readers)
+        fsm = ra.select_fields()
+        ra.assemble()
+        ra.assemble()
+        print "test_full_assemble done"
 
 if __name__ == '__main__':
     unittest.main()

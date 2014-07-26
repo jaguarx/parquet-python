@@ -7,7 +7,7 @@ class SchemaParser(object):
         'string' : 'byte_array'
     }
     def __init__(self, type_mapping = None):
-        self._schema_elements = []
+        self.schema_elements = []
         if type_mapping != None:
             self.type_mapping = type_mapping
         else:
@@ -56,54 +56,70 @@ class SchemaParser(object):
         return Type._NAMES_TO_VALUES[type.upper()]
 
     def _parse_grp(self, tokens):
+        g = []
         self._match("{", tokens)
         while not self._la1("}", tokens) and len(tokens)>1:
             rt = FieldRepetitionType._NAMES_TO_VALUES[tokens.pop(0).upper()]
             t = tokens.pop(0)
             n = tokens.pop(0)
             element = SchemaElement(name = n, repetition_type = rt)
-            self._schema_elements.append(element)
+            self.schema_elements.append(element)
+            g.append(element)
             if t != "group":
                 assert self._match(";", tokens), "expect ';'"
                 element.type = self._map_type(t)
             else:
-                id = len(self._schema_elements)
-                self._parse_grp(tokens)
-                nid = len(self._schema_elements)
-                element.num_children = nid - id;
+                subg = self._parse_grp(tokens)
+                element.num_children = len(subg);
         self._match("}", tokens)
+        return g
 
     def parse(self, text):
         tokens = self._lex(text)
         assert self._match("message", tokens)
-        doc = tokens.pop(0)
-        self._schema_elements = []
+        n = tokens.pop(0)
+        element = SchemaElement(name = n)
+        self.schema_elements = [element]
         if self._la1("{", tokens):
-            self._parse_grp(tokens)
-        return self._schema_elements
+            g = self._parse_grp(tokens)
+            element.num_children = len(g)
+        return self.schema_elements
 
     def dump(self):
-        for id,element in enumerate(self._schema_elements):
+        for id,element in enumerate(self.schema_elements):
             print id,element
 
 class SchemaHelper(object):
-    ROOT_NODE = -1
+    ROOT_NODE = 0
 
     def __init__(self, schema_elements):
-        self.schema_elements = schema_elements
+        self._schema_elements = schema_elements
         self._parent_to_child = {}
         self._child_to_parent = {}
-        self._rep_level = range(0, len(self.schema_elements))
-        self._def_level = range(0, len(self.schema_elements))
-        self._element_path = [[] for i in range(0, len(self.schema_elements))]
-        top_child = self._peer_schema_elements(0, len(self.schema_elements))
-        self._rebuild_tree(top_child, SchemaHelper.ROOT_NODE, 0, 0)
+        self._rep_level = range(0, len(self._schema_elements))
+        self._def_level = range(0, len(self._schema_elements))
+        self._element_path = [[] for i in range(0, len(self._schema_elements))]
+
+        self._rebuild_tree(SchemaHelper.ROOT_NODE, 0, 0, [])
         self._path_to_id = dict([('.'.join(self._element_path[id]), id)
-            for id in range(0, len(self.schema_elements))])
+            for id in range(0, len(self._schema_elements))])
+
+    def dump(self):
+        for id,e in enumerate(self._schema_elements):
+            print id,self._rep_level[id],self._def_level[id],e
+        for id,p in enumerate(self._element_path):
+            print id,p
+        for p,id in self._path_to_id.items():
+            print p,id
+        for c,p in self._child_to_parent.items():
+            print c,p
+        for c,p in self._parent_to_child.items():
+            print c,p
 
     def schema_element(self, name):
         """Get the schema element with the given name."""
-        return self.schema_elements_by_name[name]
+        id = self._path_to_id[name]
+        return self._schema_elements[id]
 
     def is_required(self, name):
         """Returns true iff the schema element with the given name is
@@ -112,53 +128,40 @@ class SchemaHelper(object):
 
     def max_repetition_level(self, path):
         """get the max repetition level for the given schema path."""
-        max_level = 0
-        for part in path:
-            se = self.schema_element(part)
-            if se.repetition_type == FieldRepetitionType.REQUIRED:
-                max_level += 1
-        return max_level
+        id = self._path_to_id['.'.join(path)]
+        return self._rep_level[id]
 
     def max_definition_level(self, path):
         """get the max definition level for the given schema path."""
-        max_level = 0
-        for part in path:
-            se = self.schema_element(part)
-            if se.repetition_type != FieldRepetitionType.REQUIRED:
-                max_level += 1
-        return max_level
+        id = self._path_to_id['.'.join(path)]
+        return self._def_level[id]
 
-    def _peer_schema_elements(self, fid, limit):
-        field_ids = []
-        while fid < limit:
-            field_ids.append(fid)
-            element = self.schema_elements[fid]
-            if element.num_children != None:
-                fid += element.num_children
-            fid += 1
-        return field_ids
-    
-    def _rebuild_tree(self, children, parent, parent_rep_level, parent_def_level):
-        self._parent_to_child[parent] = children
-        for chd in children:
-            self._child_to_parent[chd] = parent
-            chd_rep_level = parent_rep_level
-            chd_def_level = parent_def_level
-            element = self.schema_elements[chd]
-            if element.repetition_type == FieldRepetitionType.REPEATED:
-                chd_rep_level += 1
-            if element.repetition_type != FieldRepetitionType.REQUIRED:
-                chd_def_level += 1
-            self._rep_level[chd] = chd_rep_level
-            self._def_level[chd] = chd_def_level
-            
-            if parent != SchemaHelper.ROOT_NODE:
-                self._element_path[chd] = self._element_path[parent][:]
-            self._element_path[chd].append(element.name)
-            if element.num_children != None:
-                grand_chd = self._peer_schema_elements(chd + 1, 
-                    chd + 1 + element.num_children)
-                self._rebuild_tree(grand_chd, chd, chd_rep_level, chd_def_level)
+    def _rebuild_tree(self, fid, rep_level, def_level, path):
+        parent = self._schema_elements[fid]
+        if fid != SchemaHelper.ROOT_NODE:
+            if parent.repetition_type == FieldRepetitionType.REPEATED:
+                rep_level += 1
+            if parent.repetition_type != FieldRepetitionType.REQUIRED:
+                def_level += 1
+            ppath = path[:]
+            ppath.append(parent.name)
+            self._element_path[fid] = ppath
+        self._rep_level[fid] = rep_level
+        self._def_level[fid] = def_level
+        if parent.num_children == None:
+            return 1
+        num_children = parent.num_children
+        chd = fid + 1
+        while num_children > 0:
+            num_children -= 1
+            self._child_to_parent[chd] = fid
+            if not fid in self._parent_to_child.keys():
+                self._parent_to_child[fid] = [chd]
+            else:
+                self._parent_to_child[fid].append(chd)
+            chd += self._rebuild_tree(chd, rep_level, def_level,
+                self._element_path[fid])
+        return chd - fid
     
     def children(self, parent_id):
         return self._parent_to_child[parent_id]
@@ -176,13 +179,13 @@ class SchemaHelper(object):
         return self._element_path[field_id]
     
     def build_full_fsm(self):
-        self._edges = [{} for x in self.schema_elements]
+        self._edges = [{} for x in self._schema_elements]
         self._build_child_fsm(SchemaHelper.ROOT_NODE)
     
     def _build_child_fsm(self, parent_id):
         child_ids = self.children(parent_id)
         for i,id in enumerate(child_ids):
-            element = self.schema_elements[id]
+            element = self._schema_elements[id]
             rep_level = self._rep_level[id]
             edge = range(0, rep_level+1)
             for r in range(0, rep_level+1):
@@ -209,10 +212,10 @@ class SchemaHelper(object):
         if ts_m == 'F':
             return self._follow_fsm(ts_id, rep_lvl)
         else:
-            element = self.schema_elements[ts_id]
+            element = self._schema_elements[ts_id]
             while element.num_children != None:
                 ts_id = ts_id + 1
-                element = self.schema_elements[ts_id]
+                element = self._schema_elements[ts_id]
             return ts_id
     
     def compress_state(self, field_id, rep_lvl, fields):
@@ -227,7 +230,7 @@ class SchemaHelper(object):
     def compress_fsm(self, fields):
         fsm = {}
         for id in fields:
-            element = self.schema_elements[id]
+            element = self._schema_elements[id]
             edge = {}
             rep_lvl = self._rep_level[id]
             for r in range(0, rep_lvl + 1):
@@ -305,7 +308,10 @@ class RecordAssembler(object):
         self.schema_elements = schema_elements
         self._schema_helper = SchemaHelper(schema_elements)
         self._schema_helper.build_full_fsm()
-        self.column_readers = column_readers
+        self.column_readers = {}
+        for p,id in self._schema_helper._path_to_id.items():
+            if p in column_readers.keys():
+                self.column_readers[id] = column_readers[p]
     
     def select_fields(self, field_paths = None):
         fields = []
@@ -330,9 +336,9 @@ class RecordAssembler(object):
             #if d == None:
             r = rd.repetition_level
             nfid = self._fsm[fid][r]
-            print r,d,'{0} -> {1}'.format(fid, nfid)
+            #print r,d,'{0} -> {1}'.format(fid, nfid)
             fid = nfid
-            if fid != -1:
+            if fid != SchemaHelper.ROOT_NODE:
                 rd = self.column_readers[fid]
 
     def dump(self):
