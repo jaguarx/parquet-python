@@ -265,6 +265,7 @@ def read_data_page(fo, schema_helper, page_header, column_metadata,
 
     max_repetition_level = schema_helper.max_repetition_level(
             column_metadata.path_in_schema)
+    logger.debug("  max_repetition_level: %s", max_repetition_level)
     if max_repetition_level > 0:
         bit_width = encoding.width_from_max_int(max_repetition_level)
         if bit_width == 0:
@@ -279,6 +280,7 @@ def read_data_page(fo, schema_helper, page_header, column_metadata,
     definition_levels = []
     max_definition_level = schema_helper.max_definition_level(
             column_metadata.path_in_schema)
+    logger.debug("  max_definition_level: %s", max_definition_level)
     if max_definition_level > 0:
         bit_width = encoding.width_from_max_int(max_definition_level)
         logger.debug("  max def level: %s   bit_width: %s  values: %s",
@@ -289,15 +291,13 @@ def read_data_page(fo, schema_helper, page_header, column_metadata,
                                            bit_width)
         logger.debug("  Definition levels: %s", definition_levels)
 
-    # TODO Actually use the definition and repetition levels.
-
     if daph.encoding == Encoding.PLAIN:
         for i in range(daph.num_values):
             if len(definition_levels)>0:
                 dl = definition_levels[i]
                 if dl < max_definition_level:
                     continue
-	        vals.append(
+            vals.append(
                 encoding.read_plain(io_obj, column_metadata.type, None))
         logger.debug("  Values: %s", vals)
     elif daph.encoding == Encoding.PLAIN_DICTIONARY:
