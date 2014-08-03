@@ -1,0 +1,1000 @@
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}
+{"file_name":"example.log", "line_number":"7", "device_id":"device1", "timestamp":"140000000000006", "action":"Permit"}
+{"file_name":"example.log", "line_number":"1", "device_id":"device1", "timestamp":"140000000000000", "action":"Permit"}
+{"file_name":"example.log", "line_number":"2", "device_id":"device1", "timestamp":"140000000000001", "action":"Permit"}
+{"file_name":"example.log", "line_number":"3", "device_id":"device1", "timestamp":"140000000000002", "action":"Deny"}
+{"file_name":"example.log", "line_number":"4", "device_id":"device1", "timestamp":"140000000000003", "action":"Permit"}
+{"file_name":"example.log", "line_number":"5", "device_id":"device1", "timestamp":"140000000000004", "action":"Permit"}
+{"file_name":"example.log", "line_number":"6", "device_id":"device1", "timestamp":"140000000000005"}

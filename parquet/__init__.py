@@ -11,8 +11,9 @@ from thrift.protocol import TCompactProtocol
 from thrift.transport import TTransport
 import encoding
 import schema
+import binascii
 
-
+#logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger("parquet")
 
 try:
@@ -291,15 +292,16 @@ def read_data_page(fo, schema_helper, page_header, column_metadata,
                                            bit_width)
         logger.debug("  Definition levels: %s", definition_levels)
 
+    num_nulls = 0
+    for i in range(daph.num_values):
+        if len(definition_levels)>0:
+            dl = definition_levels[i]
+            if dl < max_definition_level:
+                num_nulls += 1
+    num_not_null = daph.num_values - num_nulls
     if daph.encoding == Encoding.PLAIN:
-        for i in range(daph.num_values):
-            if len(definition_levels)>0:
-                dl = definition_levels[i]
-                if dl < max_definition_level:
-                    continue
-            vals.append(
-                encoding.read_plain(io_obj, column_metadata.type, None))
-        logger.debug("  Values: %s", vals)
+        for i in range(num_not_null):
+            vals.append(encoding.read_plain(io_obj, column_metadata.type, None))
     elif daph.encoding == Encoding.PLAIN_DICTIONARY:
         # bit_width is stored as single byte.
         bit_width = struct.unpack("<B", io_obj.read(1))[0]
@@ -308,17 +310,31 @@ def read_data_page(fo, schema_helper, page_header, column_metadata,
         dict_values_bytes = io_obj.read()
         dict_values_io_obj = cStringIO.StringIO(dict_values_bytes)
         # TODO jcrobak -- not sure that this loop is needed?
-        while total_seen < daph.num_values:
+        while total_seen < num_not_null:
             values = encoding.read_rle_bit_packed_hybrid(
                 dict_values_io_obj, bit_width, len(dict_values_bytes))
             if len(values) + total_seen > daph.num_values:
                 values = values[0: daph.num_values - total_seen]
             vals += [dictionary[v] for v in values]
             total_seen += len(values)
+    elif daph.encoding == Encoding.DELTA_BYTE_ARRAY:
+        vals = encoding.read_delta_byte_array(io_obj, daph.num_values)
     else:
         raise ParquetFormatException("Unsupported encoding: %s",
                                      _get_name(Encoding, daph.encoding))
-    return vals
+    if len(definition_levels)>0:
+        null_mixed = []
+        idx2 = 0
+        for i in range(daph.num_values):
+            dl = definition_levels[i]
+            if dl < max_definition_level:
+                null_mixed.append(None)
+            else:
+                null_mixed.append(vals[idx2])
+                idx2 += 1
+        return null_mixed
+    else:
+        return vals
 
 
 def read_dictionary_page(fo, page_header, column_metadata):

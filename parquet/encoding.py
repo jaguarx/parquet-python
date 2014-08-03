@@ -3,6 +3,8 @@ import math
 import struct
 import cStringIO
 import logging
+import binascii
+from ctypes import *
 
 from ttypes import Type
 
@@ -84,11 +86,16 @@ def read_unsigned_var_int(fo):
         shift += 7
     return result
 
+def read_zigzag_var_int(fo):
+    v = read_unsigned_var_int(fo)
+    t = v >> 1
+    if (v & 1) == 1:
+        t = -1 - t
+    return t
 
 def byte_width(bit_width):
     "Returns the byte width for the given bit_width"
     return (bit_width + 7) / 8
-
 
 def read_rle(fo, header, bit_width):
     """Read a run-length encoded run from the given fo with the given header
@@ -220,3 +227,100 @@ def read_rle_bit_packed_hybrid(fo, width, length=None):
         else:
             res += read_bitpacked(io_obj, header, width)
     return res
+
+def unpackminiblock(values, bytes, width):
+    idx = 0
+    t = 0
+    tmp_bits = 0
+    m = _mask_for_bits(width)
+    done = False
+    logger.debug("miniblock: %s", bytes)
+    while not done:
+        if tmp_bits >= width:
+            values.append( t & m)
+            t = t >> width
+            tmp_bits -= width
+        else:
+            if idx < len(bytes):
+                t = t | (bytes[idx] << tmp_bits)
+                idx += 1
+                tmp_bits += 8
+            else:
+                done = True
+
+def read_delta_binary_packed(fo):
+    values_per_block     = read_unsigned_var_int(fo)
+    miniblocks_per_block = read_unsigned_var_int(fo)
+    values_per_minblock  = values_per_block / miniblocks_per_block
+    total_values = read_unsigned_var_int(fo)
+    first_value = read_zigzag_var_int(fo)
+    logger.debug("values_per_block:%s, miniblocks_per_block:%s, total_values:%s, first value:%s",
+        values_per_block, miniblocks_per_block, total_values, first_value)
+    values = [first_value]
+    while len(values) < total_values:
+        #read miniblock
+        mindelta = read_zigzag_var_int(fo)
+        bitwidths = array.array('B', fo.read(miniblocks_per_block)).tolist()
+        logger.debug("min delta:%s, bitwidths:%s",
+             mindelta, bitwidths)
+        num_mini_blocks = 1 + (total_values - len(values)) / values_per_minblock
+        num_mini_blocks = min(num_mini_blocks, miniblocks_per_block)
+        for i in range(num_mini_blocks):
+            bitwidth = bitwidths[i]
+            miniblock_size = (values_per_minblock * bitwidth / 8)
+            #logger.debug(" mini block:%s/%s bytes:%s", i, num_mini_blocks, miniblock_size)
+            start = len(values)
+            if miniblock_size > 0:
+                bytes = array.array('B', fo.read(miniblock_size)).tolist()
+                unpackminiblock(values, bytes, bitwidth)
+                #logger.debug("add values: %s", values[start:])
+                for i in range(start, len(values)):
+                    values[i] += mindelta + values[i-1]
+                #logger.debug("adjusted values: %s", values[start:])
+            else:
+                for i in range(values_per_minblock):
+                    values.append(mindelta + values[start+i-1])
+    return values[0:total_values]
+
+def read_delta_length_byte_array(fo, num_values):
+    lengths = read_delta_binary_packed(fo)
+    logger.debug("delta-lengths %s/%s: %s", num_values, len(lengths), lengths)
+    values = []
+    for l in lengths:
+        v = fo.read(l)
+        values.append(v)
+    return values
+
+def read_delta_byte_array(fo, num_values):
+    prefixlength = read_delta_binary_packed(fo)
+    logger.debug("delta-byte-array: values %s/%s", num_values,len(prefixlength))
+    values = read_delta_length_byte_array(fo, num_values)[0:num_values]
+    logger.debug("prefix length: %s", len(prefixlength))
+    #logger.debug("values: %s", values)
+    previos = ''
+    retval = []
+    for i in range(len(prefixlength)):
+        v = ''
+        pl = prefixlength[i]
+        if pl > 0:
+            v = previous[0:pl]
+        v += values[i]
+        previous = v
+        retval.append(v)
+    return retval
+
+class delta_binary_packed_reader:
+    def __init__(self, fo):
+        self._block_size_in_values = read_unsigend_var_int(fo)
+        self._num_min_blocks = read_unsigned_var_int(fo)
+        self._total_values = read_unsigned_var_int(fo)
+        self._bit_widths = range(self._num_min_blocks)
+        first_value = read_zigzag_var_int(fo)
+        _values = [first_value]
+        while len(_values) < self._total_values:
+            min_delta = read_zigzag_var_int(fo)
+            bit_widths = array.array('B', fo.read(self._num_min_blocks)).tolist()
+
+
+    def read_i32(self):
+        pass
