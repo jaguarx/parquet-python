@@ -282,19 +282,19 @@ def read_delta_binary_packed(fo):
                     values.append(mindelta + values[start+i-1])
     return values[0:total_values]
 
-def read_delta_length_byte_array(fo, num_values):
+def read_delta_length_byte_array(fo):
     lengths = read_delta_binary_packed(fo)
-    logger.debug("delta-lengths %s/%s: %s", num_values, len(lengths), lengths)
+    logger.debug("delta-lengths %s: %s", len(lengths), lengths)
     values = []
     for l in lengths:
         v = fo.read(l)
         values.append(v)
     return values
 
-def read_delta_byte_array(fo, num_values):
+def read_delta_byte_array(fo):
     prefixlength = read_delta_binary_packed(fo)
-    logger.debug("delta-byte-array: values %s/%s", num_values,len(prefixlength))
-    values = read_delta_length_byte_array(fo, num_values)[0:num_values]
+    logger.debug("delta-byte-array: values%s", len(prefixlength))
+    values = read_delta_length_byte_array(fo)
     logger.debug("prefix length: %s", len(prefixlength))
     #logger.debug("values: %s", values)
     previos = ''

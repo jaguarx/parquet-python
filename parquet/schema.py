@@ -188,12 +188,12 @@ class SchemaHelper(object):
 
     def max_repetition_level(self, path):
         """get the max repetition level for the given schema path."""
-        id = self._path_to_id['.'.join(path)]
+        id = self._path_to_id[path]
         return self._rep_level[id]
 
     def max_definition_level(self, path):
         """get the max definition level for the given schema path."""
-        id = self._path_to_id['.'.join(path)]
+        id = self._path_to_id[path]
         return self._def_level[id]
 
     def _rebuild_tree(self, fid, rep_level, def_level, path):

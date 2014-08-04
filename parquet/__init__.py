@@ -318,7 +318,9 @@ def read_data_page(fo, schema_helper, page_header, column_metadata,
             vals += [dictionary[v] for v in values]
             total_seen += len(values)
     elif daph.encoding == Encoding.DELTA_BYTE_ARRAY:
-        vals = encoding.read_delta_byte_array(io_obj, daph.num_values)
+        vals = encoding.read_delta_byte_array(io_obj)
+    elif daph.encoding == Encoding.DELTA_BINARY_PACKED:
+        vals = encoding.read_delta_binary_packed(io_obj)
     else:
         raise ParquetFormatException("Unsupported encoding: %s",
                                      _get_name(Encoding, daph.encoding))
@@ -409,3 +411,156 @@ def _dump(fo, options, out=sys.stdout):
 def dump(filename, options, out=sys.stdout):
     with open(filename, 'rb') as fo:
         return _dump(fo, options=options, out=out)
+
+
+def _read_data_page(fo, schema_helper, page_header, column_metadata,
+                    dictionary):
+    daph = page_header.data_page_header
+    raw_bytes = _read_page(fo, page_header, column_metadata)
+    io_obj = cStringIO.StringIO(raw_bytes)
+    vals = []
+    column_path_name = '.'.join(column_metadata.path_in_schema)
+    logger.debug("  path_in_schema: %s", column_path_name)
+    logger.debug("  definition_level_encoding: %s",
+                 _get_name(Encoding, daph.definition_level_encoding))
+    logger.debug("  repetition_level_encoding: %s",
+                 _get_name(Encoding, daph.repetition_level_encoding))
+    logger.debug("  encoding: %s", _get_name(Encoding, daph.encoding))
+
+    max_repetition_level = schema_helper.max_repetition_level(column_path_name)
+    logger.debug("  max_repetition_level: %s", max_repetition_level)
+    repetition_levels = []
+    if max_repetition_level > 0:
+        bit_width = encoding.width_from_max_int(max_repetition_level)
+        if bit_width == 0:
+            repetition_levels = [0] * daph.num_values
+        else:
+            repetition_levels = _read_data(io_obj,
+                                       daph.repetition_level_encoding,
+                                       daph.num_values,
+                                       bit_width)
+        logger.debug("  Repetition levels: %s ...", repetition_levels[0:10])
+
+    definition_levels = []
+    max_definition_level = schema_helper.max_definition_level(column_path_name)
+    logger.debug("  max_definition_level: %s", max_definition_level)
+    if max_definition_level > 0:
+        bit_width = encoding.width_from_max_int(max_definition_level)
+        logger.debug("  max def level: %s   bit_width: %s  values: %s",
+                     max_definition_level, bit_width, daph.num_values)
+        definition_levels = _read_data(io_obj,
+                                       daph.definition_level_encoding,
+                                       daph.num_values,
+                                       bit_width)
+        logger.debug("  Definition levels: %s ...", definition_levels[0:10])
+
+    num_nulls = 0
+    for i in range(daph.num_values):
+        if len(definition_levels)>0:
+            dl = definition_levels[i]
+            if dl < max_definition_level:
+                num_nulls += 1
+    num_not_null = daph.num_values - num_nulls
+    if daph.encoding == Encoding.PLAIN:
+        for i in range(num_not_null):
+            vals.append(encoding.read_plain(io_obj, column_metadata.type, None))
+    elif daph.encoding == Encoding.PLAIN_DICTIONARY:
+        # bit_width is stored as single byte.
+        bit_width = struct.unpack("<B", io_obj.read(1))[0]
+        logger.debug("bit_width: %d", bit_width)
+        total_seen = 0
+        dict_values_bytes = io_obj.read()
+        dict_values_io_obj = cStringIO.StringIO(dict_values_bytes)
+        while total_seen < num_not_null:
+            values = encoding.read_rle_bit_packed_hybrid(
+                dict_values_io_obj, bit_width, len(dict_values_bytes))
+            if len(values) + total_seen > daph.num_values:
+                values = values[0: daph.num_values - total_seen]
+            vals += [dictionary[v] for v in values]
+            total_seen += len(values)
+    elif daph.encoding == Encoding.DELTA_BYTE_ARRAY:
+        vals = encoding.read_delta_byte_array(io_obj)
+    elif daph.encoding == Encoding.DELTA_BINARY_PACKED:
+        vals = encoding.read_delta_binary_packed(io_obj)
+    else:
+        raise ParquetFormatException("Unsupported encoding: %s",
+                                     _get_name(Encoding, daph.encoding))
+    return (repetition_levels, definition_levels, vals)
+
+class ColumnReader:
+    def __init__(self, fo, schema_helper, max_def_level, schema_element, column_meta_datas):
+        self._fo = fo
+        self._schema_helper = schema_helper
+        self._max_def_level = max_def_level
+        self._schema_element = schema_element
+        self._column_meta_datas = column_meta_datas
+
+    def read(self):
+        fo = self._fo
+        schema_helper = self._schema_helper
+        for cmd in self._column_meta_datas:
+            dict_items = []
+            offset = _get_offset(cmd)
+            self._fo.seek(offset, 0)
+            values_seen = 0
+            logger.debug("reading column chunk of type: %s", _get_name(Type, cmd.type))
+            ph = _read_page_header(fo)
+            logger.debug("Reading page (type=%s, "
+                         "uncompressed=%s bytes, "
+                         "compressed=%s bytes)",
+                         _get_name(PageType, ph.type),
+                         ph.uncompressed_page_size,
+                         ph.compressed_page_size)
+
+            if ph.type == PageType.DATA_PAGE:
+                rls, dls, vals = _read_data_page(fo, schema_helper, ph, cmd,
+                                        dict_items)
+                if self._max_def_level == 0:
+                    for v in vals:
+                        yield (0, 0, v)
+                else:
+                    logger.debug("total repetition_levels:%s, definition_levels:%s,"+
+                                 " values: %s", len(rls), len(dls), len(vals))
+                    ivl = 0
+                    for i, dl in enumerate(dls):
+                        rl = 0
+                        if len(rls) > 0: rl = rls[i]
+                        v = None
+                        if dl < self._max_def_level:
+                            v = [rl, dl, None]
+                        else:
+                            v = [rl, dl, vals[ivl]]
+                            ivl += 1
+                        yield v
+            elif ph.type == PageType.DICTIONARY_PAGE:
+                logger.debug(ph)
+                assert dict_items == []
+                dict_items = read_dictionary_page(fo, ph, cmd)
+                logger.debug("Dictionary: %s", str(dict_items))
+            else:
+                logger.warn("Skipping unknown page type={0}".format(
+                            _get_name(PageType, ph.type)))
+
+class FileReader:
+    def __init__(self, fo):
+        self._fo = fo
+        self._footer = _read_footer(fo)
+        self._schema_helper = schema.SchemaHelper(self._footer.schema)
+
+    def schema(self):
+        return self._footer.schema
+
+    def column_reader(self, column_name):
+        column_meta_datas = []
+        for rg in self._footer.row_groups:
+            for idx, cg in enumerate(rg. columns):
+                cmd = cg.meta_data
+                if not ".".join(cmd.path_in_schema) == column_name:
+                    continue
+                column_meta_datas.append(cmd)
+        schema_element = self._schema_helper.schema_element(column_name)
+        rd = ColumnReader(self._fo, self._schema_helper,
+                self._schema_helper.max_definition_level(column_name),
+                schema_element,
+                column_meta_datas)
+        return rd
